@@ -19,6 +19,16 @@ The cFS community page ([http://coreflightsystem.org](http://coreflightsystem.or
 
 Official cFS page: [http://cfs.gsfc.nasa.gov](http://cfs.gsfc.nasa.gov)
 
+## Prereq
+
+Install the following libraries:
+
+### Ubuntu
+
+``` bash
+    apt install libc6-dev-i386
+```
+
 ## Setup
 
 We suggest that users fork the repositories included here and modify as needed for their specific missions.
