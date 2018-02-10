@@ -27,6 +27,8 @@ Install the following libraries:
 
 ``` bash
     apt install libc6-dev-i386
+    sudo su 
+    echo 256 > /proc/sys/fs/mqueue/msg_max
 ```
 
 ## Setup
