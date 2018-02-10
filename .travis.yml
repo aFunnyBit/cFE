@@ -1,0 +1,11 @@
+language: c
+addons:
+    apt:
+        packages:
+             - gcc
+script:
+ - source setvars.sh
+ - cd $CFS_MISSION/build/cpu1
+ - make clean
+ - make config
+ - make
